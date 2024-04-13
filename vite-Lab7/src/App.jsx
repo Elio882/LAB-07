@@ -9,12 +9,8 @@ function App() {
   const buttonText = "Count: "
   return (
     <>
-      <h1>Hola mundo con REACT CON VITE</h1>
+      <h1>Contador de 5 en 5 cada que le das click</h1>
       <Button text={buttonText}/>
-
-      <WrapperList>
-        <List/>
-      </WrapperList>
     </>
   )
 }
