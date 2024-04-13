@@ -2,14 +2,13 @@ import { useState } from "react";
 
 export const Button = props => {
     const { text } = props;
-    const [count,  setCount] = useState(0);
     function handlerButton(){
-        setCount(count+5);
+        alert(Math.floor(Math.random() * 101))
     }
 
     return (
         <button onClick={ handlerButton }>
-           {text} {count}
+           {text} 
         </button>
     );
 }

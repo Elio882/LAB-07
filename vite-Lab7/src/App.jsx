@@ -6,10 +6,10 @@ import { WrapperList } from './components/WrapperList'
 export { List } from './components/List'
 
 function App() {
-  const buttonText = "Count: "
+  const buttonText = "Button "
   return (
     <>
-      <h1>Contador de 5 en 5 cada que le das click</h1>
+      <h1>Button que que manda un numero aleatorio del 1 al 100</h1>
       <Button text={buttonText}/>
     </>
   )
