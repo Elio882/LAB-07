@@ -3,7 +3,7 @@ import { useState } from "react";
 export const Button = props => {
     const { text } = props;
     function handlerButton(){
-        alert(Math.floor(Math.random() * 101))
+        alert (Math.floor(Math.random() * 100) + 1);
     }
 
     return (

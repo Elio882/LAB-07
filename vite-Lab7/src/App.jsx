@@ -1,16 +1,39 @@
 
 import './App.css'
-import { Button } from './components/Button'
-import { List } from './components/List'
-import { WrapperList } from './components/WrapperList'
-export { List } from './components/List'
+import { RandomComponent } from './components/RandomComponent'
 
 function App() {
   const buttonText = "Button "
   return (
     <>
-      <h1>Button que que manda un numero aleatorio del 1 al 100</h1>
-      <Button text={buttonText}/>
+      <h1>componente aleatorio</h1>
+      <div style={{display: 'flex', flexWrap: 'wrap',  justifyContent: 'space-around'}}>
+        <RandomComponent
+        urlImg = "/public/pantheon1.jpg"
+        text = "pantheon Matadragones" 
+        />
+        <RandomComponent
+        urlImg = "/public/pantheon2.jpg"
+        text = "pantheon la lanza inquebrantable" 
+        />
+        <RandomComponent
+        urlImg = "/public/pantheon3.jpg"
+        text = "pantheon vs Aatrox" 
+        />
+        <RandomComponent
+        urlImg = "/public/pantheon4.jpg"
+        text = "pantheon" 
+        />
+        <RandomComponent
+        urlImg = "/public/pantheon5.jpg"
+        text = "pantheon metalizado" 
+        />
+        <RandomComponent
+        urlImg = "/public/pantheon6.jpg"
+        text = "pantheon la espada guerrera" 
+        />
+      </div>
+
     </>
   )
 }
